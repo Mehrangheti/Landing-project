@@ -1,0 +1,126 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #1F2937;
+    color: white;
+    height: 320px;
+    width: 100%;
+}
+.header_content p{
+    font-size: 12px;
+    margin-top: -10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+}
+.nav h2{
+    font-size: 15px;
+}
+.item-nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.h1{
+    font-size: 48px;
+}
+.header_content{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 73%;
+    margin-top: -20px;
+}
+.header-img{
+    width: 80% ;
+    height: 60%;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.header-btn{
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
+    border-radius: 10%;
+    width: 90px;
+    height: 25px;
+}
+.h1-sec{
+    text-align: center;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto; 
+}
+.img-item{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.imgs p{
+    margin-left: 60px; 
+}
+.second{
+    background-color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.para{
+    font-size: 12px;
+    text-align: center;
+}
+.sec-para{
+    font-style: italic;
+}
+.autor{
+     text-align: right;
+     font-weight: bold;
+     padding-right: 180px;
+}
+.third{
+    background-color:#3882F6;
+    width: 70%;
+    margin: auto;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 120px;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.third button{
+    background-color: #3882F6;
+    border:1px solid #E5E7EB;
+    margin-top: 40px ;
+    color: #E5E7EB;
+    border-radius: 10%;
+    width: 90px;
+    height: 25px;
+}
+footer{
+    background-color:#1F2937;
+    color: #E5E7EB;
+    height: 45px;
+    text-align: center;
+   padding-top: 1px;
+    margin-top: 30px;
+    font-size: 13px;
+}
